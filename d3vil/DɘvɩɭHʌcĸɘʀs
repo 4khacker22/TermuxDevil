@@ -1,0 +1,52 @@
+#!/bin/bash
+
+clear
+
+printf "     \e[1;96m If You are getting Error Join our \e[1;91mTelegram Group\e[0m                       \n"
+printf "            \e[1;96m Plese Subscribe our \e[1;91mYouTube Channel\e[0m                      \n  \n"
+
+menu() {
+
+printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;91m Full Carding Course Free\e[0m         \n \n"
+printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;91m Hack Android with termux\e[0m         \n \n"
+printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;91m Install Metasploit without Error\e[0m \n \n"
+printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;91m Spam Call/SMS Bombing\e[0m            \n \n"
+printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;91m Increse Instagram Followers\e[0m      \n \n"
+
+read -p $'\n\e[1;91m[\e[0m\e[1;96m(◣_◢)\e[0m\e[1;91m] Choose an option: \e[0m\en' option
+
+
+if [[ $option == 1 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/02/free-carding-course.html
+clear
+menu
+
+elif [[ $option == 2 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/02/ere-4.html
+clear
+menu
+
+elif [[ $option == 3 ]]; then
+termux-open-url https://youtu.be/s93zJoGW0q8
+clear
+menu
+
+elif [[ $option == 4 ]]; then
+termux-open-url https://youtu.be/ZuM8H2RKrR8
+clear
+menu
+
+elif [[ $option == 5 ]]; then
+termux-open-url https://youtu.be/RaHY0-3FgxQ
+clear
+menu
+
+
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
+clear
+menu
+fi
+}
+
+menu

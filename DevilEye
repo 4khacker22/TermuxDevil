@@ -1,0 +1,187 @@
+termux-open-url https://youtube.com/channel/UCtVKt69RRu9TOJFfk5neJEA
+
+#!/bin/bash
+
+clear
+
+printf "     \e[1;96m If You are getting Error Join our \e[1;91mTelegram Group\e[0m                       \n"
+printf "            \e[1;96m Plese Subscribe our \e[1;91mYouTube Channel\e[0m                      \n  \n"
+
+menu() {
+
+printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;91m Full Carding Course Free\e[0m      \e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;91m Facebool Tools\e[0m                       \n"
+printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;91m Hack Android with termux\e[0m      \e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;91m Bombing Tools\e[0m                        \n"
+printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;91m Install Metasploit\e[0m            \e[1;92m[\e[0m\e[1;77m06\e[0m\e[1;92m]\e[0m\e[1;91m TLord\e[0m                                \n"
+printf "\e[1;92m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;91m Spam Call/SMS Bombing\e[0m         \e[1;92m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;91m Star Wars In Termux\e[0m                  \n"
+printf "\e[1;92m[\e[0m\e[1;77m09\e[0m\e[1;92m]\e[0m\e[1;91m Increse Instagram Followers\e[0m   \e[1;92m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[0m\e[1;91m ToolX 100+ tools\e[0m                     \n"
+printf "\e[1;92m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;91m Install kali linux in termux\e[0m  \e[1;92m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;91m CrackInsta\e[0m                           \n"
+printf "\e[1;92m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;91m Install ngrok in Termux\e[0m       \e[1;92m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;91m Strom\e[0m                                \n"
+printf "\e[1;92m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;91m Make Your Own Tool\e[0m            \e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;91m Telegram Scraper\e[0m                     \n"
+printf "\e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;91m DarkFly 500+ Tools\e[0m            \e[1;92m[\e[0m\e[1;77m18\e[0m\e[1;92m]\e[0m\e[1;91m CoolWelcome Screen\e[0m                   \n"
+printf "\e[1;92m[\e[0m\e[1;77m19\e[0m\e[1;92m]\e[0m\e[1;91m Phone Info Gathering tool\e[0m     \e[1;92m[\e[0m\e[1;77m20\e[0m\e[1;92m]\e[0m\e[1;91m Follow Instagram\e[0m                     \n"
+printf "\e[1;92m[\e[0m\e[1;77m21\e[0m\e[1;92m]\e[0m\e[1;91m Hacktronian 100+ tools\e[0m        \e[1;92m[\e[0m\e[1;77m22\e[0m\e[1;92m]\e[0m\e[1;91m Telegram Channel\e[0m                     \n"
+printf "\e[1;92m[\e[0m\e[1;77m23\e[0m\e[1;92m]\e[0m\e[1;91m Termux Fun Commands\e[0m           \e[1;92m[\e[0m\e[1;77m24\e[0m\e[1;92m]\e[0m\e[1;91m Telegram Group\e[0m                       \n"
+printf "\e[1;92m[\e[0m\e[1;77m25\e[0m\e[1;92m]\e[0m\e[1;91m Extra keys in Termux\e[0m          \e[1;92m[\e[0m\e[1;77m26\e[0m\e[1;92m]\e[0m\e[1;91m YouTube Channel\e[0m                      \n"
+printf "\e[1;92m[\e[0m\e[1;77m27\e[0m\e[1;92m]\e[0m\e[1;91m Instagram Tools\e[0m               \e[1;92m[\e[0m\e[1;77m28\e[0m\e[1;92m]\e[0m\e[1;91m More\e[0m                                 \n"
+printf "\e[1;92m[\e[0m\e[1;77m29\e[0m\e[1;92m]\e[0m\e[1;91m Phishing Tools\e[0m                \e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m EXIT\e[0m                                 \n"
+
+
+read -p $'\n\e[1;91m[\e[0m\e[1;96m(◣_◢)\e[0m\e[1;91m] Choose an option: \e[0m\en' option
+
+
+if [[ $option == 1 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/02/free-carding-course.html
+clear
+menu
+
+elif [[ $option == 2 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/facebook-tools-link.html
+clear
+menu
+
+elif [[ $option == 3 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/02/ere-4.html
+clear
+menu
+
+elif [[ $option == 4 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/bomber-tools.html
+clear
+menu
+
+elif [[ $option == 5 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/02/install-metasploit-framework-in-termux.html
+clear
+menu
+
+elif [[ $option == 6 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/tload-new-tool.html
+clear
+menu
+
+elif [[ $option == 7 ]]; then
+termux-open-url https://youtu.be/ZuM8H2RKrR8
+clear
+menu
+
+elif [[ $option == 8 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/watch-star-wars-movie-on-termux.html
+clear
+menu
+
+elif [[ $option == 9 ]]; then
+termux-open-url https://youtu.be/RaHY0-3FgxQ
+clear
+menu
+elif [[ $option == 10 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/toolx-all-in-one-tool.html
+clear
+menu
+
+elif [[ $option == 11 ]]; then
+termux-open-url https://youtu.be/TsIw8Sz1q-I
+clear
+menu
+
+elif [[ $option == 12 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/hack-instagram-with-termux.html
+clear
+menu
+elif [[ $option == 13 ]]; then
+termux-open-url https://youtu.be/y3dmfOeIla0
+clear
+menu
+
+elif [[ $option == 14 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/install-kali-nethunter-metasploit-sudo.html
+clear
+menu
+
+elif [[ $option == 15 ]]; then
+termux-open-url https://youtu.be/Kjg4Zu71L04
+clear
+menu
+
+elif [[ $option == 16 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/telegram-member-scraper.html
+clear
+menu
+
+elif [[ $option == 17 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/02/dark-fly-install-500-tools-in-termux.html
+clear
+menu
+
+elif [[ $option == 18 ]]; then
+termux-open-url https://youtu.be/uV0EyJs_fsw
+clear
+menu
+
+elif [[ $option == 19 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/phone-info-ga-phone-information.html
+clear
+menu
+
+elif [[ $option == 20 ]]; then
+termux-open-url https://instagram.com/akhacker22?igshid=15xyos100l4si
+clear
+menu
+
+elif [[ $option == 21 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/hacktronian-all-in-one-tool.html
+clear
+menu
+
+elif [[ $option == 22 ]]; then
+termux-open-url https://t.me/devilhacker22
+clear
+menu
+
+elif [[ $option == 23 ]]; then
+termux-open-url https://youtu.be/tGvNwEXZLM4
+clear
+menu
+
+elif [[ $option == 24 ]]; then
+termux-open-url https://t.me/joinchat/UMwX-os1Rsdf0avY
+clear
+menu
+
+elif [[ $option == 25 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/add-extra-keys-in-termux.html
+clear
+menu
+
+elif [[ $option == 26 ]]; then
+termux-open-url https://youtube.com/channel/UCtVKt69RRu9TOJFfk5neJEA
+clear
+menu
+
+elif [[ $option == 27 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/2021/01/instagram-tools-link.html
+clear
+menu
+30
+elif [[ $option == 28 ]]; then
+termux-open-url https://devilhackers22.blogspot.com/?m=0
+clear
+menu
+
+elif [[ $option == 29 ]]; then
+cd d3vil
+bash phishing
+
+
+elif [[ $option == 99 ]]; then
+termux-open-url https://youtube.com/channel/UCtVKt69RRu9TOJFfk5neJEA
+clear
+exit
+
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
+clear
+menu
+fi
+}
+
+menu
