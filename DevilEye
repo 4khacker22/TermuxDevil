@@ -148,7 +148,7 @@ clear
 menu
 
 elif [[ $option == 25 ]]; then
-termux-open-url https://devilhackers22.blogspot.com/2021/01/add-extra-keys-in-termux.html
+termux-opem-url https://youtu.be/opi_EnG6Ung
 clear
 menu
 
